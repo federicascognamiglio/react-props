@@ -1,0 +1,64 @@
+/* RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* UTILITIES */
+/* Colors */
+:root {
+  --header-height: 80px;
+  --footer-height: 100px;
+  --bg-color: #efefef;
+  --bg-footer: #252525;
+}
+
+/* Text */
+.text-center {
+  text-align: center;
+}
+
+/* COMMON */
+/* Layout */
+.wrapper {
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Header */
+.header {
+  height: var(--header-height);
+  background-color: var(--bg-color);
+  padding: 20px 0;
+  font-size: 1rem;
+}
+
+/* Main */
+.main {
+  height: calc(100vh - (var(--header-height) + var(--footer-height)));
+  padding: 30px 0;
+  background-color: var(--bg-color);
+}
+
+/* Footer */
+.footer {
+  height: var(--footer-height);
+  font-size: .9rem;
+  color: #ffffff;
+  background-color: var(--bg-footer);
+  padding: 30px 0;
+}

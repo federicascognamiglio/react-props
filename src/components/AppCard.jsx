@@ -9,7 +9,7 @@ function AppCard({ title, image, content, tags }) {
             <img src={imgSrc} alt="" />
             <div className={style.description}>
                 <h4 className={style.title}>{title}</h4>
-                {tags.map((curTag, index) => <span key={index} className={`${style.tag} ${style.curTag}`}>{curTag}</span>)}
+                {tags.map((curTag, index) => <span key={index} className={`${style.tag} ${style[curTag]}`}>{curTag}</span>)}
                 <p className={style.caption}>{content}</p>
                 <AppButton />
             </div>

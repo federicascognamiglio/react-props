@@ -28,22 +28,24 @@
 
 .tag {
     display: inline-block;
-    padding: .8rem 1rem;
+    padding: .3rem 1rem;
     color: #ffffff;
+    margin-right: 5px;
+    margin-bottom: 10px;
 }
 
-.tag .js {
+.js {
     background-color: #ffd900;
 }
 
-.tag .css {
+.css {
     background-color: #0083e7;
 }
 
-.tag .html {
+.html {
     background-color: #d05980;
 }
 
-.tag .php {
+.php {
     background-color: #0f7f25;
 }

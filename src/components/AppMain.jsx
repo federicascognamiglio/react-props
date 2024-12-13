@@ -1,5 +1,6 @@
 // DATA
 import AppCard from "./AppCard";
+import AppTags from "./AppTags";
 import posts from "../data/posts";
 
 // Functions

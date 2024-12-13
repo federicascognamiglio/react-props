@@ -1,8 +1,8 @@
 import AppButton from "./AppButton";
 import style from "./AppCard.module.css";
 
-function AppCard({ title, image, content, tags }) {
-    const imgSrc = image || "https://placehold.co/600x400";
+function AppCard({id, title, image, content, tags }) {
+    const imgSrc = image || "https://picsum.photos/id/2/600/400";
 
     return (
         <div className={style.card}>

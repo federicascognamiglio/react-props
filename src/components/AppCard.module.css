@@ -28,6 +28,7 @@
 
 .tag {
     display: inline-block;
+    font-size: .8rem;
     padding: .3rem 1rem;
     color: #ffffff;
     margin-right: 5px;
@@ -35,7 +36,7 @@
 }
 
 .js {
-    background-color: #ffd900;
+    background-color: #ffb300;
 }
 
 .css {

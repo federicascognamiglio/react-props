@@ -1,8 +1,8 @@
 const posts = [
     {
         id: 1,
-        title: "Titolo del Post",
-        image: 'image1.jpg',
+        title: "Intro Web Development",
+        image: 'https://picsum.photos/id/1/600/400',
         content:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
         tags: ["html", "css"],
@@ -10,7 +10,7 @@ const posts = [
     },
     {
         id: 2,
-        title: "Titolo del Post",
+        title: "Intro Programming",
         image: '',
         content:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
@@ -19,7 +19,7 @@ const posts = [
     },
     {
         id: 3,
-        title: "Titolo del Post",
+        title: "Coding Tips",
         image: '',
         content:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",

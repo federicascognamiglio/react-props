@@ -43,7 +43,7 @@ function AppMain() {
                 <section className="tag-section">
                     {printFilteredTags(posts)}
                 </section>
-                <section className="cardsection">
+                <section className="card-section">
                     <div className="row">
                         {posts.length > 0 ? printCard(posts) : printEmptyState()}
                     </div>

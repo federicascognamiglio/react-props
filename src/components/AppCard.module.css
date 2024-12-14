@@ -25,28 +25,3 @@
     line-height: 1.3;
     padding-bottom: 20px;
 }
-
-.tag {
-    display: inline-block;
-    font-size: .8rem;
-    padding: .3rem 1rem;
-    color: #ffffff;
-    margin-right: 5px;
-    margin-bottom: 10px;
-}
-
-.js {
-    background-color: #ffb300;
-}
-
-.css {
-    background-color: #0083e7;
-}
-
-.html {
-    background-color: #d05980;
-}
-
-.php {
-    background-color: #0f7f25;
-}

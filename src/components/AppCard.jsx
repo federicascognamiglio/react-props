@@ -1,7 +1,8 @@
 import AppButton from "./AppButton";
+import AppTags from "./AppTags";
 import style from "./AppCard.module.css";
 
-function AppCard({id, title, image, content, tags }) {
+function AppCard({title, image, content, tags }) {
     const imgSrc = image || "https://picsum.photos/id/2/600/400";
 
     return (
@@ -9,7 +10,7 @@ function AppCard({id, title, image, content, tags }) {
             <img src={imgSrc} alt="" />
             <div className={style.description}>
                 <h4 className={style.title}>{title}</h4>
-                {tags.map((curTag, index) => <span key={index} className={`${style.tag} ${style[curTag]}`}>{curTag}</span>)}
+                <AppTags tags={tags} />
                 <p className={style.caption}>{content}</p>
                 <AppButton />
             </div>
